@@ -2,14 +2,14 @@ import pygame
 import sys
 import random
 import math
-// importing all necessary liberaries
+#importing all necessary liberaries
 pygame.init()
 
 width = 600
 height = 400
-// dimensions of the window
+#dimensions of the window
 
-screen = pygame.display.set_mode((width,height)) //creating main screen
+screen = pygame.display.set_mode((width,height)) #creating main screen
 pygame.display.set_caption("flappy bird")
 
 clock = pygame.time.Clock()
